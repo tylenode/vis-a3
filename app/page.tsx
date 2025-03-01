@@ -24,7 +24,7 @@ export default function Page() {
       </p>
 
       <div className="big">
-        The Original Design
+        Original Design
       </div>
       <hr className="solid-line"></hr>
 
@@ -210,6 +210,12 @@ export default function Page() {
           </li>
       </ul>
       </div>
+
+    <div className="big">
+      Final Design
+    </div>
+    <hr className="solid-line"></hr>
+
     </section>
   )
 }
