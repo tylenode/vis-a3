@@ -6,6 +6,9 @@ import sketch1 from 'app/assets/sketch1.png';
 import sketch2 from 'app/assets/sketch2.png';
 import sketch3 from 'app/assets/sketch3.png';
 
+// Step chart
+import StepChart from './components/stepChart';
+
 export default function Page() {
   return (
     <section>
@@ -215,7 +218,7 @@ export default function Page() {
       Final Design
     </div>
     <hr className="solid-line"></hr>
-
+    <StepChart />
     </section>
   )
 }
