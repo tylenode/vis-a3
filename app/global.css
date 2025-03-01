@@ -183,7 +183,7 @@ ul {
 }
 
 .blue {
-  color: turquoise
+  color: rgb(125, 177, 223)
 }
 
 .orange {
@@ -192,4 +192,14 @@ ul {
 
 .purple {
   color: rgb(219, 151, 219)
+}
+
+.graph-text {
+  font-size: 0.7rem;
+  font-weight: 250;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(170, 165, 165)
 }

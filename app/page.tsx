@@ -219,6 +219,35 @@ export default function Page() {
     </div>
     <hr className="solid-line"></hr>
     <StepChart />
+    <figcaption className="graph-text">Fig 1. Number of new COVID-19 cases in the U.S. across 2020-2022. The x-axis represents months and the y-axis represents the aggregated number of new cases in each month, in millions (M). The legends are interactive. Select a year from the legend to temporarily hide its data and emphasize other trends.</figcaption>
+
+        <ul className="normal">
+          <li>
+            <span className="u">Rationale</span>: At its heart, this design reveals the striking reality that pandemics, despite their global impact,
+            are not random events. Instead, they show discernible cyclical patterns influenced by seasons. My new design highlights a strong positive correlation
+            between winter months and a pronounced surge in new cases of COVID (in 2020 and 2021), contrasting with the lower case number in the warmer months.
+            The visual encodings used include: colors - I chose a progressive of colors from the spectrum to mirror the progression of the pandemic (green, for example, signals the beginning, and purple signals we are toward the end of the pandemic).
+            In addition to colors, I aggregated the data by month. This data transformation aligns how readers usually care about macro-trends when it comes to a large-scale event such 
+            as a pandemic, instead of knowing the exact number of cases on a specific day of a month. Furthermore, the axis units are in millions, a post-processing performed
+            to ensure we respect the magnitude of datapoints and the range of the datasets across years and aligns with <b className="green">consistent representation</b>. Lastly, the use of shading fills the graph and 
+            aligns well with Gestalt Principles of Perception: Closure, which describes our tendency to want to fill in the gap to create complete form.
+            Adding the shades adds cognitive efficiency for the readers and adds to the aesthetic appeal and <b className="blue">modularity</b>  of the overall visualization.
+            In terms of aspects of the design that can obscure the underlying data, the use of scale in the millions, in fact, can flattens the visual presence 
+            of low datapoints in a dataset. For example, in Feb 2020, there are close to a hundred new cases, but on the graph, it appears as if there is none.
+          </li>
+          <br></br>
+          <li>
+            <span className="u">Reflection</span>: My final design addresses my critiques of the original New York Times' design by
+            first presenting a linear, <b className='purple'>easily intepretatable</b> progression of time thorough my x-axis. Furthermore, my time representation is symmetric
+            (each year shares the same set of months, and the spacing between datapoint to time point is equal and constant). Secondly, I specifically add an intentional repetition of the word "Year"
+            to guarantee clarity in my data label, which is also centralized at the top, unlike in the original design where the annotations sit at the top left as well as near the center of the spiral.
+            The process of "critique by redesign" immensively helped me identify the need for a conventionally intepretable timeline, quantitative numbers which adds flexibility in interpretation,
+            as well as the importance of being able to single out a specific year for both viewing modularly (without influence of data groups) as well as subgroup patterns discovery,
+            which my design achieves by adding an element of interactity in the legends. Overall, I believe my final design addresses the critiques raised earlier
+            and delivers a clearer, more interactive, and enjoyable visualization.
+          </li>
+      </ul>
+      
     </section>
   )
 }
