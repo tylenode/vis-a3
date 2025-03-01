@@ -242,7 +242,8 @@ export default function Page() {
             (each year shares the same set of months, and the spacing between datapoint to time point is equal and constant). Secondly, I specifically add an intentional repetition of the word "Year"
             to guarantee clarity in my data label, which is also centralized at the top, unlike in the original design where the annotations sit at the top left as well as near the center of the spiral.
             The process of "critique by redesign" immensively helped me identify the need for a conventionally intepretable timeline, quantitative numbers which adds flexibility in interpretation,
-            as well as the importance of being able to single out a specific year for both viewing modularly (without influence of data groups) as well as subgroup patterns discovery,
+            as well as the importance of being able to single out a specific year for both viewing modularly (without influence of data groups) as well as subgroup patterns discovery (for example, 2020 vs. 2022, this
+            need to do cross-year and cross-month comparison is something I learned from sketching my seasonal tabular view and how it constrained my horizontal comparison window to only within a season),
             which my design achieves by adding an element of interactity in the legends. Overall, I believe my final design addresses the critiques raised earlier
             and delivers a clearer, more interactive, and enjoyable visualization.
           </li>
