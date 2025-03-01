@@ -85,7 +85,7 @@ export default function Page() {
           </ul>
 
           <ul className="normal">
-            <li>Constraints, however, include the use of a radial layout to represent time, which deviates from the linear representation the general public is accustomed to, such as putting time strictly on the x-axis in a traditional bar graph or scatter plot. Also, there is a perceptual lack of radial symmetry at the lower left, third quadrant.. This is directly related to a strong limit of this visualization: scalability. What if a specific interval has an extreme surge of new cases? The radial presentation forces the designer to add space in-between swirls to ensure representation clarity, which contributes to the perceptual confusion. Additionally, I almost missed the 7-day average label because it was not at the legends, which is a more common area to place metadata or label descriptions.</li>
+            <li>Constraints, however, include the use of a radial layout to represent time, which deviates from the linear representation the general public is accustomed to, such as putting time strictly on the x-axis in a traditional bar graph or scatter plot. Also, there is a perceptual lack of radial symmetry at the lower left, third quadrant. This is directly related to a strong limit of this visualization: scalability. What if a specific interval has an extreme surge of new cases? The radial presentation forces the designer to add space in-between swirls to ensure representation clarity, which contributes to the perceptual confusion. Additionally, I almost missed the 7-day average label because it was not at the legends, which is a more common area to place metadata or label descriptions.</li>
           </ul>
 
           <ul className="normal">
