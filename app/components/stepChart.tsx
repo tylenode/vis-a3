@@ -55,7 +55,17 @@ const StepChart = () => {
               }
             },
             scales: {
+              x: {
+                title: {
+                  display: true,
+                  text: 'Months'
+                }
+              },
               y: {
+                title: {
+                  display: true,
+                  text: 'New COVID Cases'
+                },
                 beginAtZero: true,
                 ticks: {
                     callback: function(value, index, values) {
